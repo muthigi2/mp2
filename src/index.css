@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  /* Using a white translucent overlay to lighten the background image */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../public/background.jpg');
+  background-attachment: fixed;
+}
+
+/* Basic layout helpers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
